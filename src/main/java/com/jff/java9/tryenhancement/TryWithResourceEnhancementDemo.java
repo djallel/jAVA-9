@@ -23,6 +23,7 @@ public class TryWithResourceEnhancementDemo {
 			}
 
 		} catch (IOException e) {
+			System.out.println("Djallel crée le fichier trywithres.txt dans D: ;)");
 			e.printStackTrace();
 		}
 
@@ -37,6 +38,7 @@ public class TryWithResourceEnhancementDemo {
 				System.out.println(line);
 			}
 		} catch (IOException e) {
+			System.out.println("Djallel crée le fichier trywithres.txt dans D: ;)");
 			e.printStackTrace();
 		}
 
